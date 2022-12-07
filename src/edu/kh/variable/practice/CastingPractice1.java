@@ -27,10 +27,10 @@ public class CastingPractice1 {
 		System.out.println(iNum1 / fNum); // 3.3333333
 		System.out.println(iNum1 / (double)fNum); // 3.3333333333333335
 		
-		System.out.println( ch ); // 'A'
+		System.out.println( "'" + ch + "'" ); // 'A'
 		System.out.println( (int)ch ); // 65
 		System.out.println( (int)ch + iNum1 ); // 75
-		System.out.println( (char)(ch + iNum1)); // 'K'
+		System.out.println( "'" +(char)(ch + iNum1)+ "'");//'K'
 		
 
 	}
